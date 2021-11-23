@@ -1,0 +1,42 @@
+#mydiv1{
+	height:360px;
+	width:580px;
+	position: relative;
+
+	z-index: 2;
+	background-color:white;
+	margin-top:105px;
+ 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+/* 	display: block; */
+  text-align:center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*  background: #3e3e3e url(Images/background_2.jpg) center top no-repeat;
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%); */
+}
+
+#mydiv2{
+	height:360px;
+	width:580px;
+	position: relative;
+	margin:10px;
+	z-index: 2;
+	background-color:white;
+	margin-top:105px;
+	left:-80px;
+ 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  	text-align:center;
+  	vertical-align: middle;
+  	display: flex;
+    justify-content: center;
+    align-items: center;
+/*     background: white url(Images/background_2.jpg) center top no-repeat;
+    clip-path: polygon(25% 0, 100% 0%, 100% 99%, 0% 100%); */
+}
+
+#mydiv2:hover a,
+#mydiv1:hover a{
+    font-size: 48px;
+}
